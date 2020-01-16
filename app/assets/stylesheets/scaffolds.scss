@@ -5,7 +5,6 @@
   list-style: none;
   text-decoration: none;
   font-family: 'Arial', sans-serif;
-
 }
 
 body {
@@ -13,10 +12,7 @@ body {
   padding: 0;
   -webkit-text-size-adjust:none;
   color: white;
-  background-color: #33353E;
-}
-
-.container {
+  background-color: #2C2B3B;
   width: 1220px;
   margin: 0 auto;
 }
@@ -36,14 +32,25 @@ pre {
   font-size: 11px; }
 
 a {
-  color: blue; }
-
-a:visited {
-  color: #666; }
+  color: #222222;
+  padding: 5px;
+  background-color: #46C6E9;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 5px;
+}
 
 a:hover {
-  color: #fff;
-  background-color: #000; }
+  color: #efefef;
+  padding: 5px;
+  background-color: transparent;
+  border-style: solid;
+  border-color: #46C6E9;
+  border-width: 1px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
 
 th {
   padding-bottom: 5px; }
@@ -86,4 +93,12 @@ div.actions {
 label {
   display: block; }
 
+.post {
+  background-color: #264559;
+  margin: 10px;
+  border-radius: 8px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
 
