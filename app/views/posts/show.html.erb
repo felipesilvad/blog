@@ -16,14 +16,15 @@
 <br></br>
 
 <h2>Comments</h2>
+	<div id="comments">
+		<%# Expands to render partial: 'comments/comment', collection: @post.comments %>
+		<%= render @post.comments %>
+	</div>
 	
 	<% if user_signed_in? %>
-		<div id="comments">
-			<%# Expands to render partial: 'comments/comment', collection: @post.comments %>
-			<%= render @post.comments %>
-		</div>
+		<%= render 'comments/new', post: @post %>
 	<% end %>
 
-	<%= render 'comments/new', post: @post %>
+
 
 </div>
