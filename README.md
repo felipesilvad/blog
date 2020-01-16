@@ -1,24 +1,17 @@
 # blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application was built on Rails 6.0.2.1 and a development server running Ubuntu, ultilizing devise to authenticate Users.
 
-Things you may want to cover:
+To run the app you need to input the following commands on the terminal
 
-* Ruby version
+  `gem install bundler`
+  
+  `bundle`
+  
+  `rails db:create && rails db:migrate`
+  
+  `rails s`
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To run the test suite you input
+  `rails test`
+On the terminal
